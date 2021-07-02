@@ -54,11 +54,11 @@ namespace ConsoleApp2
             //Console.WriteLine("Sum = " + sum);
             //Console.WriteLine("Prod = " + product);
 
-            Console.WriteLine("Enter UAN: ");
-            double a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("It equal to " + a * 27.5 + " USD");
-
-
+            //Console.WriteLine("Enter UAN: ");
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("It equal to " + a * 27.5 + " USD");
+            Console.WriteLine("Console app2");
+            Console.ReadLine();
         }
     }
 }
