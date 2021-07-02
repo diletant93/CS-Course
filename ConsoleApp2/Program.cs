@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 namespace ConsoleApp2
 {
     class Program
@@ -26,10 +27,18 @@ namespace ConsoleApp2
             int num2 = Convert.ToInt16(str);
             Console.WriteLine("Sum = " + (num1 + num2));
             */
-            string str = "12,321";
-            double b = Convert.ToDouble(str);
-            Console.WriteLine(b);
-            //git test
+            //ctr + k , ctr + c
+            //ctr + k , ctr + u
+            //double b = convert.todouble(str);
+            //console.writeline(b);
+            NumberFormatInfo num = new NumberFormatInfo()
+            {
+                NumberDecimalSeparator = ",",
+            };
+            string str = "12,2";
+            double number = double.Parse(str,num);
+            Console.WriteLine(number);
+
         }
     }
 }
