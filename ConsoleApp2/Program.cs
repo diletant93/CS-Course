@@ -29,6 +29,7 @@ namespace ConsoleApp2
             string str = "12,321";
             double b = Convert.ToDouble(str);
             Console.WriteLine(b);
+            //git test
         }
     }
 }
