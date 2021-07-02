@@ -31,13 +31,33 @@ namespace ConsoleApp2
             //ctr + k , ctr + u
             //double b = convert.todouble(str);
             //console.writeline(b);
-            NumberFormatInfo num = new NumberFormatInfo()
-            {
-                NumberDecimalSeparator = ",",
-            };
-            string str = "12,2";
-            double number = double.Parse(str,num);
-            Console.WriteLine(number);
+            //NumberFormatInfo num = new NumberFormatInfo()
+            //{
+            //    NumberDecimalSeparator = ",",
+            //};
+            //string str = "12,2";
+            //double number = double.Parse(str,num);
+            //Console.WriteLine(number);
+
+            ///1
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //double avg = (a + b) / 2;
+            //Console.WriteLine(avg);
+
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //double c = Convert.ToDouble(Console.ReadLine());
+
+            //double sum = a + b + c;
+            //double product = a * b * c;
+            //Console.WriteLine("Sum = " + sum);
+            //Console.WriteLine("Prod = " + product);
+
+            Console.WriteLine("Enter UAN: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("It equal to " + a * 27.5 + " USD");
+
 
         }
     }
