@@ -341,33 +341,7 @@ namespace ConsoleApp3
             //    default:
             //        break;
             //}
-            //while number of even and odd in current borders
-            Console.WriteLine("Enter first border: ");
-            int border1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter last border: ");
-            int border2 = Convert.ToInt32(Console.ReadLine());
-            if(border1 > border2)
-            {
-                int tmp = border2;
-                border2 = border1;
-                border1 = tmp;
-            }
-            int countEven = 0;
-            int countOdd = 0;
-            while (border1 <= border2)
-            {
-                if(border1 % 2 == 0)
-                {
-                    countEven++;
-                }    
-                else
-                {
-                    countOdd++;
-                }
-                border1++;
-            }
-            Console.WriteLine("Number of Even = " + countEven);
-            Console.WriteLine("Number of Odd = " + countOdd);
+            
         }
     }
 }

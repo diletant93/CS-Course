@@ -73,6 +73,44 @@ namespace homeworks
             //    }
 
             //}
+
+
+            //while number of even and odd in current borders
+            Console.WriteLine("Enter first border: ");
+            int border1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter last border: ");
+            int border2 = Convert.ToInt32(Console.ReadLine());
+            if (border1 > border2)
+            {
+                int tmp = border2;
+                border2 = border1;
+                border1 = tmp;
+            }
+
+            int countEven = 0;
+            int SumEven = 0;
+       
+            int countOdd = 0;
+            int SumOdd = 0;
+
+            while (border1 <= border2)
+            {
+                if (border1 % 2 == 0)
+                {
+                    countEven++;
+                    SumEven += border1;
+                }
+                else
+                {
+                    countOdd++;
+                    SumOdd += border1;
+                }
+                border1++;
+            }
+            Console.WriteLine("Number of Even = " + countEven);
+            Console.WriteLine("Sum of Even = " + SumEven);
+            Console.WriteLine("Number of Odd = " + countOdd);
+            Console.WriteLine("Sum of Odd = " + SumOdd);
         }
     }
 }
