@@ -89,11 +89,10 @@ namespace homeworks
 
             int countEven = 0;
             int SumEven = 0;
-       
+
             int countOdd = 0;
             int SumOdd = 0;
-
-            while (border1 <= border2)
+            for (int i = border1; i <= border2; i++)
             {
                 if (border1 % 2 == 0)
                 {
@@ -107,6 +106,7 @@ namespace homeworks
                 }
                 border1++;
             }
+            
             Console.WriteLine("Number of Even = " + countEven);
             Console.WriteLine("Sum of Even = " + SumEven);
             Console.WriteLine("Number of Odd = " + countOdd);

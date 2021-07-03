@@ -341,7 +341,24 @@ namespace ConsoleApp3
             //    default:
             //        break;
             //}
-            
+
+
+            //DO WHILE
+            //while (true)
+            //{
+
+            //}
+
+            //do
+            //{
+
+            //} while (true);
+            //for
+            int length = 10;
+            for (int i = 0; i < length; i++)
+            {
+
+            }
         }
     }
 }
