@@ -43,36 +43,36 @@ namespace homeworks
             //    }
             //}
             //if
-            Console.WriteLine("Enter num1: ");
-            double a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter num2: ");
-            double b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Choose the operation: + - / * :");
-            string operation = Console.ReadLine();
-            if (b == 0 && operation == "/")
-            {
-                Console.WriteLine("You can't divide by 0!");
-            }
-            else
-            {
-                if(operation == "+")
-                {
-                    Console.WriteLine("num1 + num2 = " + (a + b));
-                }
-                if (operation == "-")
-                {
-                    Console.WriteLine("num1 - num2 = " + (a - b));
-                }
-                if (operation == "*")
-                {
-                    Console.WriteLine("num1 * num2 = " + (a * b));
-                }
-                if (operation == "/")
-                {
-                    Console.WriteLine("num1 / num2 = " + (a / b));
-                }
+            //Console.WriteLine("Enter num1: ");
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter num2: ");
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Choose the operation: + - / * :");
+            //string operation = Console.ReadLine();
+            //if (b == 0 && operation == "/")
+            //{
+            //    Console.WriteLine("You can't divide by 0!");
+            //}
+            //else
+            //{
+            //    if(operation == "+")
+            //    {
+            //        Console.WriteLine("num1 + num2 = " + (a + b));
+            //    }
+            //    if (operation == "-")
+            //    {
+            //        Console.WriteLine("num1 - num2 = " + (a - b));
+            //    }
+            //    if (operation == "*")
+            //    {
+            //        Console.WriteLine("num1 * num2 = " + (a * b));
+            //    }
+            //    if (operation == "/")
+            //    {
+            //        Console.WriteLine("num1 / num2 = " + (a / b));
+            //    }
 
-            }
+            //}
         }
     }
 }
