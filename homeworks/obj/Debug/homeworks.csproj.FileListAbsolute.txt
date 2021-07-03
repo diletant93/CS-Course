@@ -1,0 +1,7 @@
+C:\Users\Artur\Desktop\ConsoleApp2\homeworks\bin\Debug\homeworks.exe.config
+C:\Users\Artur\Desktop\ConsoleApp2\homeworks\bin\Debug\homeworks.exe
+C:\Users\Artur\Desktop\ConsoleApp2\homeworks\bin\Debug\homeworks.pdb
+C:\Users\Artur\Desktop\ConsoleApp2\homeworks\obj\Debug\homeworks.csproj.AssemblyReference.cache
+C:\Users\Artur\Desktop\ConsoleApp2\homeworks\obj\Debug\homeworks.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\ConsoleApp2\homeworks\obj\Debug\homeworks.exe
+C:\Users\Artur\Desktop\ConsoleApp2\homeworks\obj\Debug\homeworks.pdb
