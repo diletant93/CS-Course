@@ -123,33 +123,33 @@ namespace homeworks
             //*****
             //****** width = 6 and height   = 6
             //break
-            Console.Write("Enter height:");
-            int height = int.Parse(Console.ReadLine());
-            int tmp3 = height;
-            for (int i = 0; i < height; i++)
-            {
-                for (int j = --tmp3; j < height; j++)
-                {
-                    Console.Write("#");
-                }
-                Console.WriteLine();
-            }
-            Console.Write("Enter height:");
-            int height2 = int.Parse(Console.ReadLine());
-            int tmp = height2/*10*/ , tmp2 = height2/*10*/;
-            for (int i = 0; i < height2; i++)
-            {
-                tmp--;
-                for (int j = 0; j < tmp; j++)
-                {
-                    Console.Write(" ");
-                }
-                for (int m = --tmp2; m < height2; m++)
-                {
-                    Console.Write("#");
-                }
-                Console.WriteLine();
-            }
+            //Console.Write("Enter height:");
+            //int height = int.Parse(Console.ReadLine());
+            //int tmp3 = height;
+            //for (int i = 0; i < height; i++)
+            //{
+            //    for (int j = --tmp3; j < height; j++)
+            //    {
+            //        Console.Write("#");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.Write("Enter height:");
+            //int height2 = int.Parse(Console.ReadLine());
+            //int tmp = height2/*10*/ , tmp2 = height2/*10*/;
+            //for (int i = 0; i < height2; i++)
+            //{
+            //    tmp--;
+            //    for (int j = 0; j < tmp; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int m = --tmp2; m < height2; m++)
+            //    {
+            //        Console.Write("#");
+            //    }
+            //    Console.WriteLine();
+            //}
             //
             //           *
             //          **
@@ -164,6 +164,15 @@ namespace homeworks
             // ***********
             //************
             //HEIGHT 12
+
+             int acces;
+            string truePassword = "some";
+            string pass = Console.ReadLine();
+
+            acces = truePassword == pass ? 10 : 15;
+
+            Console.WriteLine(acces);
+
         }
     }
 }
