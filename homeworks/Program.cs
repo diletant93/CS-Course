@@ -165,14 +165,68 @@ namespace homeworks
             //************
             //HEIGHT 12
 
-             int acces;
-            string truePassword = "some";
-            string pass = Console.ReadLine();
+            //int acces;
+            //string truePassword = "some";
+            //string pass = Console.ReadLine();
 
-            acces = truePassword == pass ? 10 : 15;
+            //acces = truePassword == pass ? 10 : 15;
 
-            Console.WriteLine(acces);
+            //Console.WriteLine(acces);
+            //Arrays
 
+            //int[] array = Enumerable.Range(5, 10).ToArray();
+            //foreach (var item in array)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    Console.WriteLine(array[i]);
+            //}
+            Console.Write("Enter number of elems in array:");
+            double[] array = new double[int.Parse(Console.ReadLine())];
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write("Enter "+ (i+1) + " elem:");
+                array[i] = double.Parse(Console.ReadLine());
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write("Elem " + (i+1) + " = " + array[i] + "\t");
+                if((i+1) % 5 == 0 && i != 0)
+                {
+                    Console.WriteLine();
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            for (int i = array.Length-1; i >= 0 ; i--)
+            {
+                Console.Write("Elem " + (i + 1) + " = " + array[i] + "\t");
+                if ((i + 1) % 5 == 0 && i != 0)
+                {
+                    Console.WriteLine();
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            double SumOfArray = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                SumOfArray += array[i];
+            }
+            Console.WriteLine("Sum of array = " + SumOfArray);
+
+            double min = array[0];
+            for (int i = 0; i < array.Length; i++)
+            {
+                min = min > array[i] ? array[i] : min;
+            }
+            Console.WriteLine("Min of array = " + min);
         }
     }
 }
