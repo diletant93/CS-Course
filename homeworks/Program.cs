@@ -187,22 +187,10 @@ namespace homeworks
             double[] array = new double[int.Parse(Console.ReadLine())];
             for (int i = 0; i < array.Length; i++)
             {
-                Console.Write("Enter "+ (i+1) + " elem:");
+                Console.Write("Enter " + (i + 1) + " elem:");
                 array[i] = double.Parse(Console.ReadLine());
             }
             for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write("Elem " + (i+1) + " = " + array[i] + "\t");
-                if((i+1) % 5 == 0 && i != 0)
-                {
-                    Console.WriteLine();
-                }
-            }
-
-            Console.WriteLine();
-            Console.WriteLine();
-
-            for (int i = array.Length-1; i >= 0 ; i--)
             {
                 Console.Write("Elem " + (i + 1) + " = " + array[i] + "\t");
                 if ((i + 1) % 5 == 0 && i != 0)
@@ -210,23 +198,84 @@ namespace homeworks
                     Console.WriteLine();
                 }
             }
-
-            Console.WriteLine();
             Console.WriteLine();
 
-            double SumOfArray = 0;
-            for (int i = 0; i < array.Length; i++)
-            {
-                SumOfArray += array[i];
-            }
-            Console.WriteLine("Sum of array = " + SumOfArray);
+            //Console.WriteLine();
+            //Console.WriteLine();
 
-            double min = array[0];
-            for (int i = 0; i < array.Length; i++)
-            {
-                min = min > array[i] ? array[i] : min;
-            }
-            Console.WriteLine("Min of array = " + min);
+            //for (int i = array.Length-1; i >= 0 ; i--)
+            //{
+            //    Console.Write("Elem " + (i + 1) + " = " + array[i] + "\t");
+            //    if ((i + 1) % 5 == 0 && i != 0)
+            //    {
+            //        Console.WriteLine();
+            //    }
+            //}
+
+            //Console.WriteLine();
+            //Console.WriteLine();
+
+            //double SumOfArray = 0;
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    SumOfArray += array[i];
+            //}
+            //Console.WriteLine("Sum of array = " + SumOfArray);
+
+            //double min = array[0];
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    min = min > array[i] ? array[i] : min;
+            //}
+            //Console.WriteLine("Min of array = " + min);
+            //double min = array.Min();
+            //double max = array.Max();
+            //double sum = array.Sum();
+            //Console.WriteLine("sum = " + sum);
+            //Console.WriteLine("min = " + min);
+            //Console.WriteLine("max = " + max);
+            //int counter = 0;
+            //bool check = false;
+            //for (int i = 0; i < array.Length; i++)
+            //{ 
+            //    for (int j = 0; j < array.Length; j++)`
+            //    {
+            //        if(j == i)
+            //        {
+            //            continue;
+            //        }
+            //        else
+            //        {
+            //            check = array[i] == array[j] ? true : false; 
+            //        }
+            //    }
+            //    counter = check == true ? counter : ++counter;
+            //    check = false;
+            //}
+            //Console.WriteLine("Counter:" + counter);
+            //////////////ЗАКІНЧИТИ КОД БЛЯТЬ
+            //double[] newArray = array.Distinct().ToArray();
+            //double[] oneMoreArray = array.OrderBy(i => i).ToArray();
+            //double[] arr = array.OrderByDescending(i => i).ToArray();
+            //foreach (var item in newArray) 
+            //{
+            //    Console.WriteLine("Exlusive = " + item);
+            //}
+            //foreach (var item in oneMoreArray)
+            //{
+            //    Console.WriteLine("Upp = " + item);
+            //}
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine("Down = " + item);
+            //}
+            //Array.Sort(arr);
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine("Down = " + item);
+            //}
+            //// індекси і діапазони
+            
         }
     }
 }
